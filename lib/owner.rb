@@ -8,7 +8,9 @@ class Owner
     @@all << self
   end
 
-  def selfall
+  def self.all
     @@all
   end
+
+  def self.reset_all
 end
