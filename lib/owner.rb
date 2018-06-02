@@ -21,6 +21,6 @@ class Owner
     @@all = []
   end
 
-  def species
-  end
+  #def species
+#  end
 end
