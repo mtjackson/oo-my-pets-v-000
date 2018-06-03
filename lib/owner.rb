@@ -64,8 +64,8 @@ class Owner
     self.pets.each do |pets, each_pet|
       each_pet.each do |pet_mood|
         pet_mood = "nervous"
-      pets.each do |pet|
-        pet.mood = "nervous"
+  #    pets.each do |pet|
+  #      pet.mood = "nervous"
       end
     end
   end
