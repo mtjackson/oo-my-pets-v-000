@@ -68,6 +68,8 @@ class Owner
   #      pet.mood = "nervous"
       end
     end
-    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
+
+  def list_pets
+    "I have #{self.pets[:fishes].length} fish, #{self.pets[:dogs].length} dog(s), and #{self.pets[:cats].length} cat(s)."
 end
