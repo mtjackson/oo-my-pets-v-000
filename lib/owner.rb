@@ -59,17 +59,11 @@ class Owner
       fish.mood = "happy"
     end
   end
-#  owner.pets = {
-#    :dogs => [fido, Dog.new("Daisy")],
-#    :fishes => [nemo],
-#    :cats => [Cat.new("Mittens"), tabby]
-#  }
+
   def sell_pets
     self.pets.each do |type, pets|
       pets.each do |pet|
         pet.mood = "nervous"
-  #    pets.each do |pet|
-  #      pet.mood = "nervous"
       end
     end
     @pets = {:fishes => [], :dogs => [], :cats => []}
